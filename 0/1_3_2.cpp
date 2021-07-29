@@ -1,9 +1,8 @@
 #include <iostream>
-using namespace std;
 int main()
 {
-    cout << "/*";
-    cout << "*/";
+    std::cout << "/*";
+    std::cout << "*/";
     // cout << /* "*/" */;
-    cout << /* "*/" /* "/*" */;
+    std::cout << /* "*/" /* "/*" */;
 }

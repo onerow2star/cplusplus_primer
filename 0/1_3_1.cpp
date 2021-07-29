@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 /*
  * 这
  * 个
@@ -10,9 +9,9 @@ using namespace std;
 int main()
 {
     // 提示输入
-    cout << "Enter two numbers:" << endl;
+    std::cout << "Enter two numbers:" << std::endl;
     int v1 = 0, v2 = 0;     // 保存变量
-    cin >> v1 >> v2;        // 输入变量
-    cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2 << endl;
+    std::cin >> v1 >> v2;        // 输入变量
+    std::cout << "The sum of " << v1 << " and " << v2 << " is " << v1 + v2 << std::endl;
     return 0;
 }

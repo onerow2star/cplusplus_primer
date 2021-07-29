@@ -1,24 +1,23 @@
 #include <iostream>
-using namespace std;
 int main() 
 {
     int currVal = 0, val = 0;
 
-    if (cin >> currVal) 
+    if (std::cin >> currVal) 
     {
         int cnt = 1;
-        while (cin >> val) 
+        while (std::cin >> val) 
         {
             if (val == currVal) 
                 ++cnt;
             else 
             {
-                cout << currVal << " occurs " << cnt << " times" << endl;
+                std::cout << currVal << " occurs " << cnt << " times" << std::endl;
                 currVal = val;
                 cnt = 1;
             }
         }
-        cout << currVal << " occurs " << cnt << " times" << endl;
+        std::cout << currVal << " occurs " << cnt << " times" << std::endl;
     }
     return 0;
 }

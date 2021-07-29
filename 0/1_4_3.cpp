@@ -1,10 +1,9 @@
 #include <iostream>
-using namespace std;
 int main()
 {
     int sum = 0, value = 0;
-    while (cin >> value)
+    while (std::cin >> value)
         sum += value;
-    cout << "Sum is: " << sum << endl;
+    std::cout << "Sum is: " << sum << std::endl;
     return 0;
 }
