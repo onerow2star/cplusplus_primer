@@ -20,7 +20,7 @@ int main()
 {
     const string ps = mainp(); // error: taking address of temporary [-fpermissive
     cout << ps << endl; 
-    Sleep(1);
-    cout << ps << endl; // 
+    // Sleep(1);
+    // cout << ps << endl;
     return 0;
 }
